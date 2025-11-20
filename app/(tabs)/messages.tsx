@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  SafeAreaView,
+  // SafeAreaView,
   ScrollView,
   StatusBar,
   StyleSheet,
@@ -9,6 +9,7 @@ import {
   View,
 } from "react-native";
 import RemixIcon from "react-native-remix-icon";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function MessagesScreen() {
   const messages = [
